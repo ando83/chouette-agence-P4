@@ -273,7 +273,7 @@ a:hover {
 }
 
 .row-no-gutters {
-    margin-right: 0;
+    margin-right: 0;       /**/
     margin-left: 0;
 }
 
@@ -360,6 +360,45 @@ a:hover {
     float: right;
     position: relative;
     z-index: 2;
+}
+
+
+p {
+    font-size: 16px;
+}
+
+.text-img{
+    font-size: 22px;
+   }
+
+blockquote p{
+    font-size: 22px;
+
+}  
+
+cite{
+    font-size: 20px;
+    color: #333333;
+}
+
+.bloc-footer{
+   font-size: 18px;
+}
+
+.bloc-footer p{
+   font-size: 20px;
+   color: #FFFFFF!important;
+}
+
+.bloc-footer a{
+   color:#000000!important;
+}
+
+.text-picture{
+
+    font-size: 25px;
+   
+    
 }
 
 @media (min-width: 768px) {
@@ -651,7 +690,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #000000!important;
 }
 
 .container {
@@ -676,10 +715,6 @@ a {
     margin: auto auto auto auto;
 }
 
-p {
-    font-size: 11px;
-}
-
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
@@ -701,13 +736,17 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: auto ;
+}
+
+.text-color{
+    color:#FFFFFF!important;
 }
 
 h2 {
     font-size: 22px;
     line-height: 1.4em;
-}
+ }    
 
 h3 {
     font-size: 15px;
@@ -771,15 +810,16 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #9e5428;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    /*color: #F3976C!important;*/
+    color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #9e5428;
     color: #FFFFFF!important;
 }
 
@@ -822,7 +862,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
@@ -846,6 +886,7 @@ h4 {
     .nav-center.navbar .nav {
         max-width: 100%
     }
+
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
