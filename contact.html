@@ -79,27 +79,28 @@
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-6">
-				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+
+				<form id="form_1" novalidate>
 					<div class="form-group">
-						<label>
+						<label for="name">
 							Nom
 						</label>
-						<input id="name" class="form-control" required />
+						<input type="text" id="name" class="form-control" required />
 					</div>
 					<div class="form-group">
-						<label>
+						<label for="email">
 							Adresse email
 						</label>
 						<input id="email" class="form-control" type="email" required />
 					</div>
 					<div class="form-group">
-						<label>
+						<label for="information">
 							Comment nous avez-vous connu ?
 						</label>
-						<input class="form-control" type="email" required id="input_504" />
+						<input class="form-control" type="text" required id="information" />
 					</div>
 					<div class="form-group">
-						<label>
+						<label for="message">
 							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
 						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
 					</div> 
@@ -157,17 +158,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="row">
-					<div class="col-sm-3 bloc-footer">
-						<p>Partenaires</p>
-							<ul>
-								<li><a href="https://pilot-in.com" target="_blank">pilot-in.com (Agence web lyon)</a></li>
-								<li><a href="https://www.seo.fr/" target="_blank">Agence SEO.fr</a></li>
-								<li><a href="https://ando83.github.io/ohmyfood-P3/" target="_blank">Ohmyfood</a></li>
-							</ul>		
-					</div>
 				
-				</div>
 			</div>
 		</div>
 	</div>
